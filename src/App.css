@@ -1,0 +1,58 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.despesas-container ul{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+  font-weight: 50px;
+  margin: 50px 0px 0px 50px;
+  font-size: 18px;
+  }
+.resposta-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.resultados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  justify-content: center;
+  gap: 20px;
+}
+
+.botoes button {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.pago {
+  background-color: green;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.pendente {
+  background-color: orange;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.excluir {
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+}
