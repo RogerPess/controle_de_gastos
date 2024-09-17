@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.despesas-container ul{
+.despesas-container ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -13,13 +13,13 @@
   font-weight: 50px;
   margin: 50px 0px 0px 50px;
   font-size: 18px;
-  }
+}
 .resposta-form {
   display: flex;
   flex-direction: row;
 }
 
-.resultados{
+.resultados {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -55,4 +55,23 @@
   background-color: red;
   border-radius: 5px;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .despesas-container ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .resposta-form {
+    flex-direction: column;
+  }
+
+  .resultados {
+    width: 100%;
+  }
+
+  .botoes {
+    justify-content: space-between;
+  }
 }
