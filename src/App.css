@@ -57,18 +57,21 @@
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 660px) {
   .despesas-container ul {
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
+
   }
 
   .resposta-form {
+    display: flex;
     flex-direction: column;
   }
 
   .resultados {
-    width: 100%;
+    flex-direction: column;
+    width: 100vh;
     margin: 10px;
   }
 
