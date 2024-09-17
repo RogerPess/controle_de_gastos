@@ -59,7 +59,7 @@
 
 @media (max-width: 768px) {
   .despesas-container ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
@@ -69,6 +69,7 @@
 
   .resultados {
     width: 100%;
+    margin: 10px;
   }
 
   .botoes {
