@@ -61,7 +61,6 @@
   .despesas-container ul {
     flex-direction: column;
     gap: 10px;
-
   }
 
   .resposta-form {
@@ -71,11 +70,13 @@
 
   .resultados {
     flex-direction: column;
+    align-items: center;
     width: 100vh;
     margin: 10px;
   }
 
   .botoes {
-    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
   }
 }
